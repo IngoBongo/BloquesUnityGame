@@ -1,0 +1,242 @@
+fileFormatVersion: 2
+guid: e292471cb07bd413f933f3070a67192e
+timeCreated: 1520375526
+licenseType: Free
+ModelImporter:
+  serializedVersion: 22
+  fileIDToRecycleName:
+    100000: Barra
+    100002: Bloque_001
+    100004: Bloque_002
+    100006: Bloque_003
+    100008: Bloque_004
+    100010: Bloque_005
+    100012: Bloque_006
+    100014: Bloque_007
+    100016: Bloque_008
+    100018: Bloque_009
+    100020: Bloque_010
+    100022: Bloque_011
+    100024: Bloque_012
+    100026: Bloque_013
+    100028: Bloque_014
+    100030: Bloque_015
+    100032: Bloque_016
+    100034: Bloque_017
+    100036: Bloque_018
+    100038: Bloque_019
+    100040: Bloque_020
+    100042: Bloque_021
+    100044: Bloque_022
+    100046: Bloque_023
+    100048: Bloque_024
+    100050: Bloque_025
+    100052: Bola
+    100054: //RootNode
+    100056: PosteDerecha
+    100058: PosteIzquierda
+    100060: Techo
+    400000: Barra
+    400002: Bloque_001
+    400004: Bloque_002
+    400006: Bloque_003
+    400008: Bloque_004
+    400010: Bloque_005
+    400012: Bloque_006
+    400014: Bloque_007
+    400016: Bloque_008
+    400018: Bloque_009
+    400020: Bloque_010
+    400022: Bloque_011
+    400024: Bloque_012
+    400026: Bloque_013
+    400028: Bloque_014
+    400030: Bloque_015
+    400032: Bloque_016
+    400034: Bloque_017
+    400036: Bloque_018
+    400038: Bloque_019
+    400040: Bloque_020
+    400042: Bloque_021
+    400044: Bloque_022
+    400046: Bloque_023
+    400048: Bloque_024
+    400050: Bloque_025
+    400052: Bola
+    400054: //RootNode
+    400056: PosteDerecha
+    400058: PosteIzquierda
+    400060: Techo
+    2100000: unnamed
+    2300000: Barra
+    2300002: Bloque_001
+    2300004: Bloque_002
+    2300006: Bloque_003
+    2300008: Bloque_004
+    2300010: Bloque_005
+    2300012: Bloque_006
+    2300014: Bloque_007
+    2300016: Bloque_008
+    2300018: Bloque_009
+    2300020: Bloque_010
+    2300022: Bloque_011
+    2300024: Bloque_012
+    2300026: Bloque_013
+    2300028: Bloque_014
+    2300030: Bloque_015
+    2300032: Bloque_016
+    2300034: Bloque_017
+    2300036: Bloque_018
+    2300038: Bloque_019
+    2300040: Bloque_020
+    2300042: Bloque_021
+    2300044: Bloque_022
+    2300046: Bloque_023
+    2300048: Bloque_024
+    2300050: Bloque_025
+    2300052: Bola
+    2300054: PosteDerecha
+    2300056: PosteIzquierda
+    2300058: Techo
+    3300000: Barra
+    3300002: Bloque_001
+    3300004: Bloque_002
+    3300006: Bloque_003
+    3300008: Bloque_004
+    3300010: Bloque_005
+    3300012: Bloque_006
+    3300014: Bloque_007
+    3300016: Bloque_008
+    3300018: Bloque_009
+    3300020: Bloque_010
+    3300022: Bloque_011
+    3300024: Bloque_012
+    3300026: Bloque_013
+    3300028: Bloque_014
+    3300030: Bloque_015
+    3300032: Bloque_016
+    3300034: Bloque_017
+    3300036: Bloque_018
+    3300038: Bloque_019
+    3300040: Bloque_020
+    3300042: Bloque_021
+    3300044: Bloque_022
+    3300046: Bloque_023
+    3300048: Bloque_024
+    3300050: Bloque_025
+    3300052: Bola
+    3300054: PosteDerecha
+    3300056: PosteIzquierda
+    3300058: Techo
+    4300000: Bloque_025
+    4300002: Bloque_024
+    4300004: Bloque_023
+    4300006: Bloque_022
+    4300008: Bloque_021
+    4300010: Bloque_020
+    4300012: Bloque_019
+    4300014: Bloque_018
+    4300016: Bloque_017
+    4300018: Bloque_016
+    4300020: Bloque_015
+    4300022: Bloque_014
+    4300024: Bloque_013
+    4300026: Bloque_012
+    4300028: Bloque_011
+    4300030: Bloque_010
+    4300032: Bloque_009
+    4300034: Bloque_008
+    4300036: Bloque_007
+    4300038: Bloque_006
+    4300040: Bloque_005
+    4300042: Bloque_004
+    4300044: Bloque_003
+    4300046: Bloque_002
+    4300048: Bloque_001
+    4300050: PosteDerecha
+    4300052: Bola
+    4300054: Barra
+    4300056: Techo
+    4300058: PosteIzquierda
+    7400000: Default Take
+    9500000: //RootNode
+  externalObjects: {}
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    preserveHierarchy: 0
+    indexFormat: 0
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    rootMotionBoneRotation: {x: 0, y: 0, z: 0, w: 1}
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

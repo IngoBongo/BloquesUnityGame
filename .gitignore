@@ -1,3 +1,11 @@
+#Carpetas
+
+Library/
+ProjectSettings/
+UnityPackageManager/
+Temp/
+
+
 # Prerequisites
 *.d
 
