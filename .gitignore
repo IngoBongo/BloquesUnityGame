@@ -4,6 +4,7 @@ Library/
 ProjectSettings/
 UnityPackageManager/
 Temp/
+*.meta
 
 
 # Prerequisites

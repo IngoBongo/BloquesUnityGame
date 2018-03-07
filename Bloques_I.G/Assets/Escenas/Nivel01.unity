@@ -189,6 +189,7 @@ GameObject:
   - component: {fileID: 109654541}
   - component: {fileID: 109654543}
   - component: {fileID: 109654542}
+  - component: {fileID: 109654544}
   m_Layer: 0
   m_Name: Bloque_002
   m_TagString: Untagged
@@ -252,6 +253,18 @@ MeshFilter:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 109654540}
   m_Mesh: {fileID: 4300046, guid: e292471cb07bd413f933f3070a67192e, type: 3}
+--- !u!65 &109654544
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 109654540}
+  m_Material: {fileID: 13400000, guid: dd33121a72a424501b04978cab83a202, type: 2}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 2, y: 2.0000005, z: 2.0000005}
+  m_Center: {x: 0, y: 0, z: 0}
 --- !u!1 &219074624
 GameObject:
   m_ObjectHideFlags: 0
@@ -262,6 +275,7 @@ GameObject:
   - component: {fileID: 219074625}
   - component: {fileID: 219074627}
   - component: {fileID: 219074626}
+  - component: {fileID: 219074628}
   m_Layer: 0
   m_Name: Bloque_005
   m_TagString: Untagged
@@ -325,6 +339,18 @@ MeshFilter:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 219074624}
   m_Mesh: {fileID: 4300040, guid: e292471cb07bd413f933f3070a67192e, type: 3}
+--- !u!65 &219074628
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 219074624}
+  m_Material: {fileID: 13400000, guid: dd33121a72a424501b04978cab83a202, type: 2}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 2, y: 2.0000005, z: 2.0000005}
+  m_Center: {x: 0, y: 0, z: 0}
 --- !u!1 &244441374
 GameObject:
   m_ObjectHideFlags: 0
@@ -519,6 +545,7 @@ GameObject:
   - component: {fileID: 359302321}
   - component: {fileID: 359302323}
   - component: {fileID: 359302322}
+  - component: {fileID: 359302324}
   m_Layer: 0
   m_Name: Techo
   m_TagString: Untagged
@@ -582,6 +609,18 @@ MeshFilter:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 359302320}
   m_Mesh: {fileID: 4300056, guid: e292471cb07bd413f933f3070a67192e, type: 3}
+--- !u!65 &359302324
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 359302320}
+  m_Material: {fileID: 13400000, guid: dd33121a72a424501b04978cab83a202, type: 2}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 2, y: 2, z: 2}
+  m_Center: {x: 0, y: 0, z: 0}
 --- !u!1 &470813744
 GameObject:
   m_ObjectHideFlags: 0
@@ -678,6 +717,7 @@ GameObject:
   - component: {fileID: 537800729}
   - component: {fileID: 537800731}
   - component: {fileID: 537800730}
+  - component: {fileID: 537800732}
   m_Layer: 0
   m_Name: Bloque_008
   m_TagString: Untagged
@@ -741,6 +781,18 @@ MeshFilter:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 537800728}
   m_Mesh: {fileID: 4300034, guid: e292471cb07bd413f933f3070a67192e, type: 3}
+--- !u!65 &537800732
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 537800728}
+  m_Material: {fileID: 13400000, guid: dd33121a72a424501b04978cab83a202, type: 2}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 2, y: 2.0000005, z: 2.0000005}
+  m_Center: {x: 0, y: 0, z: 0}
 --- !u!1 &746991372
 GameObject:
   m_ObjectHideFlags: 0
@@ -753,6 +805,7 @@ GameObject:
   - component: {fileID: 746991373}
   - component: {fileID: 746991376}
   - component: {fileID: 746991377}
+  - component: {fileID: 746991378}
   m_Layer: 0
   m_Name: Barra
   m_TagString: Untagged
@@ -844,6 +897,18 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 124
   m_CollisionDetection: 0
+--- !u!65 &746991378
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 746991372}
+  m_Material: {fileID: 13400000, guid: dd33121a72a424501b04978cab83a202, type: 2}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 2, y: 2.0000005, z: 2.0000005}
+  m_Center: {x: 0, y: 0, z: 0}
 --- !u!1 &808528345
 GameObject:
   m_ObjectHideFlags: 0
@@ -854,6 +919,7 @@ GameObject:
   - component: {fileID: 808528346}
   - component: {fileID: 808528348}
   - component: {fileID: 808528347}
+  - component: {fileID: 808528349}
   m_Layer: 0
   m_Name: Bloque_018
   m_TagString: Untagged
@@ -917,6 +983,18 @@ MeshFilter:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 808528345}
   m_Mesh: {fileID: 4300014, guid: e292471cb07bd413f933f3070a67192e, type: 3}
+--- !u!65 &808528349
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 808528345}
+  m_Material: {fileID: 13400000, guid: dd33121a72a424501b04978cab83a202, type: 2}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 2, y: 2.0000005, z: 2.0000005}
+  m_Center: {x: 0, y: 0, z: 0}
 --- !u!1 &819495593
 GameObject:
   m_ObjectHideFlags: 0
@@ -927,6 +1005,7 @@ GameObject:
   - component: {fileID: 819495594}
   - component: {fileID: 819495596}
   - component: {fileID: 819495595}
+  - component: {fileID: 819495597}
   m_Layer: 0
   m_Name: Bloque_013
   m_TagString: Untagged
@@ -990,6 +1069,18 @@ MeshFilter:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 819495593}
   m_Mesh: {fileID: 4300024, guid: e292471cb07bd413f933f3070a67192e, type: 3}
+--- !u!65 &819495597
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 819495593}
+  m_Material: {fileID: 13400000, guid: dd33121a72a424501b04978cab83a202, type: 2}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 2, y: 2.0000005, z: 2.0000005}
+  m_Center: {x: 0, y: 0, z: 0}
 --- !u!1 &822841788
 GameObject:
   m_ObjectHideFlags: 0
@@ -1000,6 +1091,7 @@ GameObject:
   - component: {fileID: 822841789}
   - component: {fileID: 822841791}
   - component: {fileID: 822841790}
+  - component: {fileID: 822841792}
   m_Layer: 0
   m_Name: Bloque_007
   m_TagString: Untagged
@@ -1063,6 +1155,18 @@ MeshFilter:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 822841788}
   m_Mesh: {fileID: 4300036, guid: e292471cb07bd413f933f3070a67192e, type: 3}
+--- !u!65 &822841792
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 822841788}
+  m_Material: {fileID: 13400000, guid: dd33121a72a424501b04978cab83a202, type: 2}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 2, y: 2.0000005, z: 2.0000005}
+  m_Center: {x: 0, y: 0, z: 0}
 --- !u!1 &834290510
 GameObject:
   m_ObjectHideFlags: 0
@@ -1073,6 +1177,7 @@ GameObject:
   - component: {fileID: 834290511}
   - component: {fileID: 834290513}
   - component: {fileID: 834290512}
+  - component: {fileID: 834290514}
   m_Layer: 0
   m_Name: Bloque_003
   m_TagString: Untagged
@@ -1136,6 +1241,18 @@ MeshFilter:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 834290510}
   m_Mesh: {fileID: 4300044, guid: e292471cb07bd413f933f3070a67192e, type: 3}
+--- !u!65 &834290514
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 834290510}
+  m_Material: {fileID: 13400000, guid: dd33121a72a424501b04978cab83a202, type: 2}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 2, y: 2.0000005, z: 2.0000005}
+  m_Center: {x: 0, y: 0, z: 0}
 --- !u!1 &849774715
 GameObject:
   m_ObjectHideFlags: 0
@@ -1146,6 +1263,7 @@ GameObject:
   - component: {fileID: 849774716}
   - component: {fileID: 849774718}
   - component: {fileID: 849774717}
+  - component: {fileID: 849774719}
   m_Layer: 0
   m_Name: Bloque_016
   m_TagString: Untagged
@@ -1209,6 +1327,18 @@ MeshFilter:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 849774715}
   m_Mesh: {fileID: 4300018, guid: e292471cb07bd413f933f3070a67192e, type: 3}
+--- !u!65 &849774719
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 849774715}
+  m_Material: {fileID: 13400000, guid: dd33121a72a424501b04978cab83a202, type: 2}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 2, y: 2.0000005, z: 2.0000005}
+  m_Center: {x: 0, y: 0, z: 0}
 --- !u!1 &918233497
 GameObject:
   m_ObjectHideFlags: 0
@@ -1219,6 +1349,7 @@ GameObject:
   - component: {fileID: 918233498}
   - component: {fileID: 918233500}
   - component: {fileID: 918233499}
+  - component: {fileID: 918233501}
   m_Layer: 0
   m_Name: Bloque_012
   m_TagString: Untagged
@@ -1282,6 +1413,18 @@ MeshFilter:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 918233497}
   m_Mesh: {fileID: 4300026, guid: e292471cb07bd413f933f3070a67192e, type: 3}
+--- !u!65 &918233501
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 918233497}
+  m_Material: {fileID: 13400000, guid: dd33121a72a424501b04978cab83a202, type: 2}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 2, y: 2.0000005, z: 2.0000005}
+  m_Center: {x: 0, y: 0, z: 0}
 --- !u!1 &1005545372
 GameObject:
   m_ObjectHideFlags: 0
@@ -1292,6 +1435,7 @@ GameObject:
   - component: {fileID: 1005545373}
   - component: {fileID: 1005545375}
   - component: {fileID: 1005545374}
+  - component: {fileID: 1005545376}
   m_Layer: 0
   m_Name: Bloque_010
   m_TagString: Untagged
@@ -1355,6 +1499,18 @@ MeshFilter:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1005545372}
   m_Mesh: {fileID: 4300030, guid: e292471cb07bd413f933f3070a67192e, type: 3}
+--- !u!65 &1005545376
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1005545372}
+  m_Material: {fileID: 13400000, guid: dd33121a72a424501b04978cab83a202, type: 2}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 2, y: 2.0000005, z: 2.0000005}
+  m_Center: {x: 0, y: 0, z: 0}
 --- !u!1 &1091710111
 GameObject:
   m_ObjectHideFlags: 0
@@ -1365,6 +1521,7 @@ GameObject:
   - component: {fileID: 1091710112}
   - component: {fileID: 1091710114}
   - component: {fileID: 1091710113}
+  - component: {fileID: 1091710115}
   m_Layer: 0
   m_Name: Bloque_022
   m_TagString: Untagged
@@ -1428,6 +1585,18 @@ MeshFilter:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1091710111}
   m_Mesh: {fileID: 4300006, guid: e292471cb07bd413f933f3070a67192e, type: 3}
+--- !u!65 &1091710115
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1091710111}
+  m_Material: {fileID: 13400000, guid: dd33121a72a424501b04978cab83a202, type: 2}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 2, y: 2.0000005, z: 2.0000005}
+  m_Center: {x: 0, y: 0, z: 0}
 --- !u!1 &1126470016
 GameObject:
   m_ObjectHideFlags: 0
@@ -1438,6 +1607,7 @@ GameObject:
   - component: {fileID: 1126470017}
   - component: {fileID: 1126470019}
   - component: {fileID: 1126470018}
+  - component: {fileID: 1126470020}
   m_Layer: 0
   m_Name: Bloque_017
   m_TagString: Untagged
@@ -1501,6 +1671,18 @@ MeshFilter:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1126470016}
   m_Mesh: {fileID: 4300016, guid: e292471cb07bd413f933f3070a67192e, type: 3}
+--- !u!65 &1126470020
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1126470016}
+  m_Material: {fileID: 13400000, guid: dd33121a72a424501b04978cab83a202, type: 2}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 2, y: 2.0000005, z: 2.0000005}
+  m_Center: {x: 0, y: 0, z: 0}
 --- !u!1 &1147596823
 GameObject:
   m_ObjectHideFlags: 0
@@ -1511,6 +1693,7 @@ GameObject:
   - component: {fileID: 1147596824}
   - component: {fileID: 1147596826}
   - component: {fileID: 1147596825}
+  - component: {fileID: 1147596827}
   m_Layer: 0
   m_Name: Bloque_021
   m_TagString: Untagged
@@ -1574,6 +1757,18 @@ MeshFilter:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1147596823}
   m_Mesh: {fileID: 4300008, guid: e292471cb07bd413f933f3070a67192e, type: 3}
+--- !u!65 &1147596827
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1147596823}
+  m_Material: {fileID: 13400000, guid: dd33121a72a424501b04978cab83a202, type: 2}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 2, y: 2.0000005, z: 2.0000005}
+  m_Center: {x: 0, y: 0, z: 0}
 --- !u!1 &1327058207
 GameObject:
   m_ObjectHideFlags: 0
@@ -1584,6 +1779,7 @@ GameObject:
   - component: {fileID: 1327058208}
   - component: {fileID: 1327058210}
   - component: {fileID: 1327058209}
+  - component: {fileID: 1327058211}
   m_Layer: 0
   m_Name: Bloque_025
   m_TagString: Untagged
@@ -1647,6 +1843,18 @@ MeshFilter:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1327058207}
   m_Mesh: {fileID: 4300000, guid: e292471cb07bd413f933f3070a67192e, type: 3}
+--- !u!65 &1327058211
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1327058207}
+  m_Material: {fileID: 13400000, guid: dd33121a72a424501b04978cab83a202, type: 2}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 2, y: 2.0000005, z: 2.0000005}
+  m_Center: {x: 0, y: 0, z: 0}
 --- !u!1 &1331062658
 GameObject:
   m_ObjectHideFlags: 0
@@ -1657,6 +1865,7 @@ GameObject:
   - component: {fileID: 1331062659}
   - component: {fileID: 1331062661}
   - component: {fileID: 1331062660}
+  - component: {fileID: 1331062662}
   m_Layer: 0
   m_Name: Bloque_009
   m_TagString: Untagged
@@ -1720,6 +1929,18 @@ MeshFilter:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1331062658}
   m_Mesh: {fileID: 4300032, guid: e292471cb07bd413f933f3070a67192e, type: 3}
+--- !u!65 &1331062662
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1331062658}
+  m_Material: {fileID: 13400000, guid: dd33121a72a424501b04978cab83a202, type: 2}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 2, y: 2.0000005, z: 2.0000005}
+  m_Center: {x: 0, y: 0, z: 0}
 --- !u!1 &1338354145
 GameObject:
   m_ObjectHideFlags: 0
@@ -1730,6 +1951,9 @@ GameObject:
   - component: {fileID: 1338354146}
   - component: {fileID: 1338354148}
   - component: {fileID: 1338354147}
+  - component: {fileID: 1338354150}
+  - component: {fileID: 1338354149}
+  - component: {fileID: 1338354151}
   m_Layer: 0
   m_Name: Bola
   m_TagString: Untagged
@@ -1744,8 +1968,8 @@ Transform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1338354145}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0, y: -0, z: 2.4999993}
-  m_LocalScale: {x: 0.33333334, y: 0.50000036, z: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 2.3}
+  m_LocalScale: {x: 0.33333334, y: 0.50000083, z: 1}
   m_Children: []
   m_Father: {fileID: 746991375}
   m_RootOrder: 0
@@ -1793,6 +2017,47 @@ MeshFilter:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1338354145}
   m_Mesh: {fileID: 4300052, guid: e292471cb07bd413f933f3070a67192e, type: 3}
+--- !u!114 &1338354149
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1338354145}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: db98bbb2c83cc4de88e7843526eaa043, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  rig: {fileID: 1338354150}
+  velocidadInicial: 600
+  barra: {fileID: 746991375}
+--- !u!54 &1338354150
+Rigidbody:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1338354145}
+  serializedVersion: 2
+  m_Mass: 1
+  m_Drag: 0
+  m_AngularDrag: 0.05
+  m_UseGravity: 0
+  m_IsKinematic: 1
+  m_Interpolate: 0
+  m_Constraints: 8
+  m_CollisionDetection: 0
+--- !u!135 &1338354151
+SphereCollider:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1338354145}
+  m_Material: {fileID: 13400000, guid: dd33121a72a424501b04978cab83a202, type: 2}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Radius: 1.0000002
+  m_Center: {x: 0, y: -0.0000005066396, z: 0}
 --- !u!1 &1368916356
 GameObject:
   m_ObjectHideFlags: 0
@@ -1803,6 +2068,7 @@ GameObject:
   - component: {fileID: 1368916357}
   - component: {fileID: 1368916359}
   - component: {fileID: 1368916358}
+  - component: {fileID: 1368916360}
   m_Layer: 0
   m_Name: Bloque_011
   m_TagString: Untagged
@@ -1866,6 +2132,18 @@ MeshFilter:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1368916356}
   m_Mesh: {fileID: 4300028, guid: e292471cb07bd413f933f3070a67192e, type: 3}
+--- !u!65 &1368916360
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1368916356}
+  m_Material: {fileID: 13400000, guid: dd33121a72a424501b04978cab83a202, type: 2}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 2, y: 2.0000005, z: 2.0000005}
+  m_Center: {x: 0, y: 0, z: 0}
 --- !u!1 &1428458237
 GameObject:
   m_ObjectHideFlags: 0
@@ -1876,6 +2154,7 @@ GameObject:
   - component: {fileID: 1428458238}
   - component: {fileID: 1428458240}
   - component: {fileID: 1428458239}
+  - component: {fileID: 1428458241}
   m_Layer: 0
   m_Name: Bloque_020
   m_TagString: Untagged
@@ -1939,6 +2218,18 @@ MeshFilter:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1428458237}
   m_Mesh: {fileID: 4300010, guid: e292471cb07bd413f933f3070a67192e, type: 3}
+--- !u!65 &1428458241
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1428458237}
+  m_Material: {fileID: 13400000, guid: dd33121a72a424501b04978cab83a202, type: 2}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 2, y: 2.0000005, z: 2.0000005}
+  m_Center: {x: 0, y: 0, z: 0}
 --- !u!1 &1461166426
 GameObject:
   m_ObjectHideFlags: 0
@@ -1949,6 +2240,7 @@ GameObject:
   - component: {fileID: 1461166427}
   - component: {fileID: 1461166429}
   - component: {fileID: 1461166428}
+  - component: {fileID: 1461166430}
   m_Layer: 0
   m_Name: Bloque_014
   m_TagString: Untagged
@@ -2012,6 +2304,18 @@ MeshFilter:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1461166426}
   m_Mesh: {fileID: 4300022, guid: e292471cb07bd413f933f3070a67192e, type: 3}
+--- !u!65 &1461166430
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1461166426}
+  m_Material: {fileID: 13400000, guid: dd33121a72a424501b04978cab83a202, type: 2}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 2, y: 2.0000005, z: 2.0000005}
+  m_Center: {x: 0, y: 0, z: 0}
 --- !u!1 &1548861193
 GameObject:
   m_ObjectHideFlags: 0
@@ -2022,6 +2326,7 @@ GameObject:
   - component: {fileID: 1548861194}
   - component: {fileID: 1548861196}
   - component: {fileID: 1548861195}
+  - component: {fileID: 1548861197}
   m_Layer: 0
   m_Name: Bloque_004
   m_TagString: Untagged
@@ -2085,6 +2390,18 @@ MeshFilter:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1548861193}
   m_Mesh: {fileID: 4300042, guid: e292471cb07bd413f933f3070a67192e, type: 3}
+--- !u!65 &1548861197
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1548861193}
+  m_Material: {fileID: 13400000, guid: dd33121a72a424501b04978cab83a202, type: 2}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 2, y: 2.0000005, z: 2.0000005}
+  m_Center: {x: 0, y: 0, z: 0}
 --- !u!1 &1561954647
 GameObject:
   m_ObjectHideFlags: 0
@@ -2095,6 +2412,7 @@ GameObject:
   - component: {fileID: 1561954648}
   - component: {fileID: 1561954650}
   - component: {fileID: 1561954649}
+  - component: {fileID: 1561954651}
   m_Layer: 0
   m_Name: Bloque_024
   m_TagString: Untagged
@@ -2158,6 +2476,18 @@ MeshFilter:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1561954647}
   m_Mesh: {fileID: 4300002, guid: e292471cb07bd413f933f3070a67192e, type: 3}
+--- !u!65 &1561954651
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1561954647}
+  m_Material: {fileID: 13400000, guid: dd33121a72a424501b04978cab83a202, type: 2}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 2, y: 2.0000005, z: 2.0000005}
+  m_Center: {x: 0, y: 0, z: 0}
 --- !u!1 &1567223652
 GameObject:
   m_ObjectHideFlags: 0
@@ -2168,6 +2498,7 @@ GameObject:
   - component: {fileID: 1567223653}
   - component: {fileID: 1567223655}
   - component: {fileID: 1567223654}
+  - component: {fileID: 1567223656}
   m_Layer: 0
   m_Name: PosteIzquierda
   m_TagString: Untagged
@@ -2231,6 +2562,18 @@ MeshFilter:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1567223652}
   m_Mesh: {fileID: 4300058, guid: e292471cb07bd413f933f3070a67192e, type: 3}
+--- !u!65 &1567223656
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1567223652}
+  m_Material: {fileID: 13400000, guid: dd33121a72a424501b04978cab83a202, type: 2}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 2, y: 2.0000005, z: 2.0006773}
+  m_Center: {x: 1.0087931e-11, y: 1.2229707e-13, z: 0.00033850226}
 --- !u!1 &1612158864
 GameObject:
   m_ObjectHideFlags: 0
@@ -2241,6 +2584,7 @@ GameObject:
   - component: {fileID: 1612158865}
   - component: {fileID: 1612158867}
   - component: {fileID: 1612158866}
+  - component: {fileID: 1612158868}
   m_Layer: 0
   m_Name: Bloque_019
   m_TagString: Untagged
@@ -2304,6 +2648,18 @@ MeshFilter:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1612158864}
   m_Mesh: {fileID: 4300012, guid: e292471cb07bd413f933f3070a67192e, type: 3}
+--- !u!65 &1612158868
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1612158864}
+  m_Material: {fileID: 13400000, guid: dd33121a72a424501b04978cab83a202, type: 2}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 2, y: 2.0000005, z: 2.0000005}
+  m_Center: {x: 0, y: 0, z: 0}
 --- !u!1 &1694091348
 GameObject:
   m_ObjectHideFlags: 0
@@ -2314,6 +2670,7 @@ GameObject:
   - component: {fileID: 1694091349}
   - component: {fileID: 1694091351}
   - component: {fileID: 1694091350}
+  - component: {fileID: 1694091352}
   m_Layer: 0
   m_Name: PosteDerecha
   m_TagString: Untagged
@@ -2377,6 +2734,18 @@ MeshFilter:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1694091348}
   m_Mesh: {fileID: 4300050, guid: e292471cb07bd413f933f3070a67192e, type: 3}
+--- !u!65 &1694091352
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1694091348}
+  m_Material: {fileID: 13400000, guid: dd33121a72a424501b04978cab83a202, type: 2}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 2.0000012, y: 2.0000055, z: 2.0006773}
+  m_Center: {x: -2.0175786e-11, y: -8.5281043e-10, z: 0.00033850226}
 --- !u!1 &1850811048
 GameObject:
   m_ObjectHideFlags: 0
@@ -2387,6 +2756,7 @@ GameObject:
   - component: {fileID: 1850811049}
   - component: {fileID: 1850811051}
   - component: {fileID: 1850811050}
+  - component: {fileID: 1850811052}
   m_Layer: 0
   m_Name: Bloque_015
   m_TagString: Untagged
@@ -2450,6 +2820,18 @@ MeshFilter:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1850811048}
   m_Mesh: {fileID: 4300020, guid: e292471cb07bd413f933f3070a67192e, type: 3}
+--- !u!65 &1850811052
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1850811048}
+  m_Material: {fileID: 13400000, guid: dd33121a72a424501b04978cab83a202, type: 2}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 2, y: 2.0000005, z: 2.0000005}
+  m_Center: {x: 0, y: 0, z: 0}
 --- !u!1 &1905836934
 GameObject:
   m_ObjectHideFlags: 0
@@ -2460,6 +2842,7 @@ GameObject:
   - component: {fileID: 1905836935}
   - component: {fileID: 1905836937}
   - component: {fileID: 1905836936}
+  - component: {fileID: 1905836938}
   m_Layer: 0
   m_Name: Bloque_006
   m_TagString: Untagged
@@ -2523,6 +2906,18 @@ MeshFilter:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1905836934}
   m_Mesh: {fileID: 4300038, guid: e292471cb07bd413f933f3070a67192e, type: 3}
+--- !u!65 &1905836938
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1905836934}
+  m_Material: {fileID: 13400000, guid: dd33121a72a424501b04978cab83a202, type: 2}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 2, y: 2.0000005, z: 2.0000005}
+  m_Center: {x: 0, y: 0, z: 0}
 --- !u!1 &1997029832
 GameObject:
   m_ObjectHideFlags: 0
@@ -2533,6 +2928,7 @@ GameObject:
   - component: {fileID: 1997029833}
   - component: {fileID: 1997029835}
   - component: {fileID: 1997029834}
+  - component: {fileID: 1997029836}
   m_Layer: 0
   m_Name: Bloque_023
   m_TagString: Untagged
@@ -2596,6 +2992,18 @@ MeshFilter:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1997029832}
   m_Mesh: {fileID: 4300004, guid: e292471cb07bd413f933f3070a67192e, type: 3}
+--- !u!65 &1997029836
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1997029832}
+  m_Material: {fileID: 13400000, guid: dd33121a72a424501b04978cab83a202, type: 2}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 2, y: 2.0000005, z: 2.0000005}
+  m_Center: {x: 0, y: 0, z: 0}
 --- !u!1 &2113830477
 GameObject:
   m_ObjectHideFlags: 0
@@ -2606,6 +3014,7 @@ GameObject:
   - component: {fileID: 2113830478}
   - component: {fileID: 2113830480}
   - component: {fileID: 2113830479}
+  - component: {fileID: 2113830481}
   m_Layer: 0
   m_Name: Bloque_001
   m_TagString: Untagged
@@ -2669,3 +3078,15 @@ MeshFilter:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 2113830477}
   m_Mesh: {fileID: 4300048, guid: e292471cb07bd413f933f3070a67192e, type: 3}
+--- !u!65 &2113830481
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 2113830477}
+  m_Material: {fileID: 13400000, guid: dd33121a72a424501b04978cab83a202, type: 2}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 2, y: 2.0000005, z: 2.0000005}
+  m_Center: {x: 0, y: 0, z: 0}
