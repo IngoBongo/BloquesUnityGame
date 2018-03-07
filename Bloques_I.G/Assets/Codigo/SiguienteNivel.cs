@@ -21,7 +21,7 @@ public class SiguienteNivel: MonoBehaviour {
 			
 			Vidas.vidas++;
 		}
-		SceneManager.LoadScene (nivelACargar);
+		SceneManager.LoadScene (nivelACargar); //Application.LoadLevel obsoleto
 	}
 
 	public bool EsUltimoNivel() //Comprueba si es el último nivel
