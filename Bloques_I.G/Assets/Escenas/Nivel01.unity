@@ -190,6 +190,7 @@ GameObject:
   - component: {fileID: 109654543}
   - component: {fileID: 109654542}
   - component: {fileID: 109654544}
+  - component: {fileID: 109654545}
   m_Layer: 0
   m_Name: Bloque_002
   m_TagString: Untagged
@@ -265,6 +266,20 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 2, y: 2.0000005, z: 2.0000005}
   m_Center: {x: 0, y: 0, z: 0}
+--- !u!114 &109654545
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 109654540}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a0bf8b70d8f384bb9a00102ee41778d2, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  efectoParticulas: {fileID: 1166925293716088, guid: 5337a95e3282c4b968477bb69bbdc48b,
+    type: 2}
+  puntos: {fileID: 559043673}
 --- !u!1 &184943055
 GameObject:
   m_ObjectHideFlags: 0
@@ -365,6 +380,7 @@ GameObject:
   - component: {fileID: 219074627}
   - component: {fileID: 219074626}
   - component: {fileID: 219074628}
+  - component: {fileID: 219074629}
   m_Layer: 0
   m_Name: Bloque_005
   m_TagString: Untagged
@@ -440,6 +456,20 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 2, y: 2.0000005, z: 2.0000005}
   m_Center: {x: 0, y: 0, z: 0}
+--- !u!114 &219074629
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 219074624}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a0bf8b70d8f384bb9a00102ee41778d2, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  efectoParticulas: {fileID: 1166925293716088, guid: 5337a95e3282c4b968477bb69bbdc48b,
+    type: 2}
+  puntos: {fileID: 559043673}
 --- !u!1 &244441374
 GameObject:
   m_ObjectHideFlags: 0
@@ -721,6 +751,7 @@ GameObject:
   - component: {fileID: 470813747}
   - component: {fileID: 470813746}
   - component: {fileID: 470813745}
+  - component: {fileID: 470813749}
   m_Layer: 0
   m_Name: Suelo
   m_TagString: Untagged
@@ -769,10 +800,10 @@ MeshCollider:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 470813744}
   m_Material: {fileID: 0}
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_Enabled: 1
   serializedVersion: 3
-  m_Convex: 0
+  m_Convex: 1
   m_CookingOptions: 14
   m_SkinWidth: 0.01
   m_Mesh: {fileID: 10209, guid: 0000000000000000e000000000000000, type: 0}
@@ -796,6 +827,18 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 5
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &470813749
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 470813744}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e39298b98ffd240d3bdf173aa0cafde2, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  vidas: {fileID: 559043674}
 --- !u!1 &494555555
 GameObject:
   m_ObjectHideFlags: 0
@@ -896,6 +939,7 @@ GameObject:
   - component: {fileID: 537800731}
   - component: {fileID: 537800730}
   - component: {fileID: 537800732}
+  - component: {fileID: 537800733}
   m_Layer: 0
   m_Name: Bloque_008
   m_TagString: Untagged
@@ -971,6 +1015,86 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 2, y: 2.0000005, z: 2.0000005}
   m_Center: {x: 0, y: 0, z: 0}
+--- !u!114 &537800733
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 537800728}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a0bf8b70d8f384bb9a00102ee41778d2, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  efectoParticulas: {fileID: 1166925293716088, guid: 5337a95e3282c4b968477bb69bbdc48b,
+    type: 2}
+  puntos: {fileID: 559043673}
+--- !u!1 &559043672
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 559043675}
+  - component: {fileID: 559043674}
+  - component: {fileID: 559043673}
+  m_Layer: 0
+  m_Name: GestorDelJuego
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &559043673
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 559043672}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ba6f8d38de88d462f8a87ebd41e821b0, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  textoPuntos: {fileID: 494555558}
+  nivelCompleto: {fileID: 184943055}
+  juegoFinalizado: {fileID: 1457137405}
+  siguienteNivel: {fileID: 0}
+  bola: {fileID: 1338354149}
+  contenedorBloques: {fileID: 244778875}
+  barra: {fileID: 746991376}
+  sonidosFinpartida: {fileID: 0}
+--- !u!114 &559043674
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 559043672}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 361f6be7d4eab4c188079559c8554910, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  bola: {fileID: 1338354149}
+  barra: {fileID: 746991376}
+  textoVidas: {fileID: 650720463}
+  gameOver: {fileID: 2050581386}
+  siguienteNivel: {fileID: 0}
+  sonidosFinPartida: {fileID: 0}
+--- !u!4 &559043675
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 559043672}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 6.000001, z: -0.00000023841858}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 8
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &564335563
 GameObject:
   m_ObjectHideFlags: 0
@@ -1278,6 +1402,7 @@ GameObject:
   - component: {fileID: 808528348}
   - component: {fileID: 808528347}
   - component: {fileID: 808528349}
+  - component: {fileID: 808528350}
   m_Layer: 0
   m_Name: Bloque_018
   m_TagString: Untagged
@@ -1353,6 +1478,20 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 2, y: 2.0000005, z: 2.0000005}
   m_Center: {x: 0, y: 0, z: 0}
+--- !u!114 &808528350
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 808528345}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a0bf8b70d8f384bb9a00102ee41778d2, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  efectoParticulas: {fileID: 1166925293716088, guid: 5337a95e3282c4b968477bb69bbdc48b,
+    type: 2}
+  puntos: {fileID: 559043673}
 --- !u!1 &819495593
 GameObject:
   m_ObjectHideFlags: 0
@@ -1364,6 +1503,7 @@ GameObject:
   - component: {fileID: 819495596}
   - component: {fileID: 819495595}
   - component: {fileID: 819495597}
+  - component: {fileID: 819495598}
   m_Layer: 0
   m_Name: Bloque_013
   m_TagString: Untagged
@@ -1439,6 +1579,20 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 2, y: 2.0000005, z: 2.0000005}
   m_Center: {x: 0, y: 0, z: 0}
+--- !u!114 &819495598
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 819495593}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a0bf8b70d8f384bb9a00102ee41778d2, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  efectoParticulas: {fileID: 1166925293716088, guid: 5337a95e3282c4b968477bb69bbdc48b,
+    type: 2}
+  puntos: {fileID: 559043673}
 --- !u!1 &822841788
 GameObject:
   m_ObjectHideFlags: 0
@@ -1450,6 +1604,7 @@ GameObject:
   - component: {fileID: 822841791}
   - component: {fileID: 822841790}
   - component: {fileID: 822841792}
+  - component: {fileID: 822841793}
   m_Layer: 0
   m_Name: Bloque_007
   m_TagString: Untagged
@@ -1525,6 +1680,20 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 2, y: 2.0000005, z: 2.0000005}
   m_Center: {x: 0, y: 0, z: 0}
+--- !u!114 &822841793
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 822841788}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a0bf8b70d8f384bb9a00102ee41778d2, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  efectoParticulas: {fileID: 1166925293716088, guid: 5337a95e3282c4b968477bb69bbdc48b,
+    type: 2}
+  puntos: {fileID: 559043673}
 --- !u!1 &834290510
 GameObject:
   m_ObjectHideFlags: 0
@@ -1536,6 +1705,7 @@ GameObject:
   - component: {fileID: 834290513}
   - component: {fileID: 834290512}
   - component: {fileID: 834290514}
+  - component: {fileID: 834290515}
   m_Layer: 0
   m_Name: Bloque_003
   m_TagString: Untagged
@@ -1611,6 +1781,20 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 2, y: 2.0000005, z: 2.0000005}
   m_Center: {x: 0, y: 0, z: 0}
+--- !u!114 &834290515
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 834290510}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a0bf8b70d8f384bb9a00102ee41778d2, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  efectoParticulas: {fileID: 1166925293716088, guid: 5337a95e3282c4b968477bb69bbdc48b,
+    type: 2}
+  puntos: {fileID: 559043673}
 --- !u!1 &849774715
 GameObject:
   m_ObjectHideFlags: 0
@@ -1622,6 +1806,7 @@ GameObject:
   - component: {fileID: 849774718}
   - component: {fileID: 849774717}
   - component: {fileID: 849774719}
+  - component: {fileID: 849774720}
   m_Layer: 0
   m_Name: Bloque_016
   m_TagString: Untagged
@@ -1697,6 +1882,20 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 2, y: 2.0000005, z: 2.0000005}
   m_Center: {x: 0, y: 0, z: 0}
+--- !u!114 &849774720
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 849774715}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a0bf8b70d8f384bb9a00102ee41778d2, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  efectoParticulas: {fileID: 1166925293716088, guid: 5337a95e3282c4b968477bb69bbdc48b,
+    type: 2}
+  puntos: {fileID: 559043673}
 --- !u!1 &918233497
 GameObject:
   m_ObjectHideFlags: 0
@@ -1708,6 +1907,7 @@ GameObject:
   - component: {fileID: 918233500}
   - component: {fileID: 918233499}
   - component: {fileID: 918233501}
+  - component: {fileID: 918233502}
   m_Layer: 0
   m_Name: Bloque_012
   m_TagString: Untagged
@@ -1783,6 +1983,20 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 2, y: 2.0000005, z: 2.0000005}
   m_Center: {x: 0, y: 0, z: 0}
+--- !u!114 &918233502
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 918233497}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a0bf8b70d8f384bb9a00102ee41778d2, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  efectoParticulas: {fileID: 1166925293716088, guid: 5337a95e3282c4b968477bb69bbdc48b,
+    type: 2}
+  puntos: {fileID: 559043673}
 --- !u!1 &1005545372
 GameObject:
   m_ObjectHideFlags: 0
@@ -1794,6 +2008,7 @@ GameObject:
   - component: {fileID: 1005545375}
   - component: {fileID: 1005545374}
   - component: {fileID: 1005545376}
+  - component: {fileID: 1005545377}
   m_Layer: 0
   m_Name: Bloque_010
   m_TagString: Untagged
@@ -1869,6 +2084,20 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 2, y: 2.0000005, z: 2.0000005}
   m_Center: {x: 0, y: 0, z: 0}
+--- !u!114 &1005545377
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1005545372}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a0bf8b70d8f384bb9a00102ee41778d2, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  efectoParticulas: {fileID: 1166925293716088, guid: 5337a95e3282c4b968477bb69bbdc48b,
+    type: 2}
+  puntos: {fileID: 559043673}
 --- !u!1 &1091710111
 GameObject:
   m_ObjectHideFlags: 0
@@ -1880,6 +2109,7 @@ GameObject:
   - component: {fileID: 1091710114}
   - component: {fileID: 1091710113}
   - component: {fileID: 1091710115}
+  - component: {fileID: 1091710116}
   m_Layer: 0
   m_Name: Bloque_022
   m_TagString: Untagged
@@ -1955,6 +2185,20 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 2, y: 2.0000005, z: 2.0000005}
   m_Center: {x: 0, y: 0, z: 0}
+--- !u!114 &1091710116
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1091710111}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a0bf8b70d8f384bb9a00102ee41778d2, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  efectoParticulas: {fileID: 1166925293716088, guid: 5337a95e3282c4b968477bb69bbdc48b,
+    type: 2}
+  puntos: {fileID: 559043673}
 --- !u!1 &1126470016
 GameObject:
   m_ObjectHideFlags: 0
@@ -1966,6 +2210,7 @@ GameObject:
   - component: {fileID: 1126470019}
   - component: {fileID: 1126470018}
   - component: {fileID: 1126470020}
+  - component: {fileID: 1126470021}
   m_Layer: 0
   m_Name: Bloque_017
   m_TagString: Untagged
@@ -2041,6 +2286,20 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 2, y: 2.0000005, z: 2.0000005}
   m_Center: {x: 0, y: 0, z: 0}
+--- !u!114 &1126470021
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1126470016}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a0bf8b70d8f384bb9a00102ee41778d2, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  efectoParticulas: {fileID: 1166925293716088, guid: 5337a95e3282c4b968477bb69bbdc48b,
+    type: 2}
+  puntos: {fileID: 559043673}
 --- !u!1 &1147596823
 GameObject:
   m_ObjectHideFlags: 0
@@ -2052,6 +2311,7 @@ GameObject:
   - component: {fileID: 1147596826}
   - component: {fileID: 1147596825}
   - component: {fileID: 1147596827}
+  - component: {fileID: 1147596828}
   m_Layer: 0
   m_Name: Bloque_021
   m_TagString: Untagged
@@ -2127,6 +2387,20 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 2, y: 2.0000005, z: 2.0000005}
   m_Center: {x: 0, y: 0, z: 0}
+--- !u!114 &1147596828
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1147596823}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a0bf8b70d8f384bb9a00102ee41778d2, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  efectoParticulas: {fileID: 1166925293716088, guid: 5337a95e3282c4b968477bb69bbdc48b,
+    type: 2}
+  puntos: {fileID: 559043673}
 --- !u!1 &1185348888
 GameObject:
   m_ObjectHideFlags: 0
@@ -2200,6 +2474,7 @@ GameObject:
   - component: {fileID: 1327058210}
   - component: {fileID: 1327058209}
   - component: {fileID: 1327058211}
+  - component: {fileID: 1327058212}
   m_Layer: 0
   m_Name: Bloque_025
   m_TagString: Untagged
@@ -2275,6 +2550,20 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 2, y: 2.0000005, z: 2.0000005}
   m_Center: {x: 0, y: 0, z: 0}
+--- !u!114 &1327058212
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1327058207}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a0bf8b70d8f384bb9a00102ee41778d2, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  efectoParticulas: {fileID: 1166925293716088, guid: 5337a95e3282c4b968477bb69bbdc48b,
+    type: 2}
+  puntos: {fileID: 559043673}
 --- !u!1 &1331062658
 GameObject:
   m_ObjectHideFlags: 0
@@ -2286,6 +2575,7 @@ GameObject:
   - component: {fileID: 1331062661}
   - component: {fileID: 1331062660}
   - component: {fileID: 1331062662}
+  - component: {fileID: 1331062663}
   m_Layer: 0
   m_Name: Bloque_009
   m_TagString: Untagged
@@ -2361,6 +2651,20 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 2, y: 2.0000005, z: 2.0000005}
   m_Center: {x: 0, y: 0, z: 0}
+--- !u!114 &1331062663
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1331062658}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a0bf8b70d8f384bb9a00102ee41778d2, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  efectoParticulas: {fileID: 1166925293716088, guid: 5337a95e3282c4b968477bb69bbdc48b,
+    type: 2}
+  puntos: {fileID: 559043673}
 --- !u!1 &1338354145
 GameObject:
   m_ObjectHideFlags: 0
@@ -2489,6 +2793,7 @@ GameObject:
   - component: {fileID: 1368916359}
   - component: {fileID: 1368916358}
   - component: {fileID: 1368916360}
+  - component: {fileID: 1368916361}
   m_Layer: 0
   m_Name: Bloque_011
   m_TagString: Untagged
@@ -2564,6 +2869,20 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 2, y: 2.0000005, z: 2.0000005}
   m_Center: {x: 0, y: 0, z: 0}
+--- !u!114 &1368916361
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1368916356}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a0bf8b70d8f384bb9a00102ee41778d2, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  efectoParticulas: {fileID: 1166925293716088, guid: 5337a95e3282c4b968477bb69bbdc48b,
+    type: 2}
+  puntos: {fileID: 559043673}
 --- !u!1 &1428458237
 GameObject:
   m_ObjectHideFlags: 0
@@ -2575,6 +2894,7 @@ GameObject:
   - component: {fileID: 1428458240}
   - component: {fileID: 1428458239}
   - component: {fileID: 1428458241}
+  - component: {fileID: 1428458242}
   m_Layer: 0
   m_Name: Bloque_020
   m_TagString: Untagged
@@ -2650,6 +2970,20 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 2, y: 2.0000005, z: 2.0000005}
   m_Center: {x: 0, y: 0, z: 0}
+--- !u!114 &1428458242
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1428458237}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a0bf8b70d8f384bb9a00102ee41778d2, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  efectoParticulas: {fileID: 1166925293716088, guid: 5337a95e3282c4b968477bb69bbdc48b,
+    type: 2}
+  puntos: {fileID: 559043673}
 --- !u!1 &1457137405
 GameObject:
   m_ObjectHideFlags: 0
@@ -2752,6 +3086,7 @@ GameObject:
   - component: {fileID: 1461166429}
   - component: {fileID: 1461166428}
   - component: {fileID: 1461166430}
+  - component: {fileID: 1461166431}
   m_Layer: 0
   m_Name: Bloque_014
   m_TagString: Untagged
@@ -2827,6 +3162,20 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 2, y: 2.0000005, z: 2.0000005}
   m_Center: {x: 0, y: 0, z: 0}
+--- !u!114 &1461166431
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1461166426}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a0bf8b70d8f384bb9a00102ee41778d2, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  efectoParticulas: {fileID: 1166925293716088, guid: 5337a95e3282c4b968477bb69bbdc48b,
+    type: 2}
+  puntos: {fileID: 559043673}
 --- !u!1 &1479568936
 GameObject:
   m_ObjectHideFlags: 0
@@ -2937,6 +3286,7 @@ GameObject:
   - component: {fileID: 1548861196}
   - component: {fileID: 1548861195}
   - component: {fileID: 1548861197}
+  - component: {fileID: 1548861198}
   m_Layer: 0
   m_Name: Bloque_004
   m_TagString: Untagged
@@ -3012,6 +3362,20 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 2, y: 2.0000005, z: 2.0000005}
   m_Center: {x: 0, y: 0, z: 0}
+--- !u!114 &1548861198
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1548861193}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a0bf8b70d8f384bb9a00102ee41778d2, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  efectoParticulas: {fileID: 1166925293716088, guid: 5337a95e3282c4b968477bb69bbdc48b,
+    type: 2}
+  puntos: {fileID: 559043673}
 --- !u!1 &1561954647
 GameObject:
   m_ObjectHideFlags: 0
@@ -3023,6 +3387,7 @@ GameObject:
   - component: {fileID: 1561954650}
   - component: {fileID: 1561954649}
   - component: {fileID: 1561954651}
+  - component: {fileID: 1561954652}
   m_Layer: 0
   m_Name: Bloque_024
   m_TagString: Untagged
@@ -3098,6 +3463,20 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 2, y: 2.0000005, z: 2.0000005}
   m_Center: {x: 0, y: 0, z: 0}
+--- !u!114 &1561954652
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1561954647}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a0bf8b70d8f384bb9a00102ee41778d2, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  efectoParticulas: {fileID: 1166925293716088, guid: 5337a95e3282c4b968477bb69bbdc48b,
+    type: 2}
+  puntos: {fileID: 559043673}
 --- !u!1 &1567223652
 GameObject:
   m_ObjectHideFlags: 0
@@ -3195,6 +3574,7 @@ GameObject:
   - component: {fileID: 1612158867}
   - component: {fileID: 1612158866}
   - component: {fileID: 1612158868}
+  - component: {fileID: 1612158869}
   m_Layer: 0
   m_Name: Bloque_019
   m_TagString: Untagged
@@ -3270,6 +3650,20 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 2, y: 2.0000005, z: 2.0000005}
   m_Center: {x: 0, y: 0, z: 0}
+--- !u!114 &1612158869
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1612158864}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a0bf8b70d8f384bb9a00102ee41778d2, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  efectoParticulas: {fileID: 1166925293716088, guid: 5337a95e3282c4b968477bb69bbdc48b,
+    type: 2}
+  puntos: {fileID: 559043673}
 --- !u!1 &1694091348
 GameObject:
   m_ObjectHideFlags: 0
@@ -3367,6 +3761,7 @@ GameObject:
   - component: {fileID: 1850811051}
   - component: {fileID: 1850811050}
   - component: {fileID: 1850811052}
+  - component: {fileID: 1850811053}
   m_Layer: 0
   m_Name: Bloque_015
   m_TagString: Untagged
@@ -3442,6 +3837,20 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 2, y: 2.0000005, z: 2.0000005}
   m_Center: {x: 0, y: 0, z: 0}
+--- !u!114 &1850811053
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1850811048}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a0bf8b70d8f384bb9a00102ee41778d2, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  efectoParticulas: {fileID: 1166925293716088, guid: 5337a95e3282c4b968477bb69bbdc48b,
+    type: 2}
+  puntos: {fileID: 559043673}
 --- !u!1 &1905836934
 GameObject:
   m_ObjectHideFlags: 0
@@ -3453,6 +3862,7 @@ GameObject:
   - component: {fileID: 1905836937}
   - component: {fileID: 1905836936}
   - component: {fileID: 1905836938}
+  - component: {fileID: 1905836939}
   m_Layer: 0
   m_Name: Bloque_006
   m_TagString: Untagged
@@ -3528,6 +3938,20 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 2, y: 2.0000005, z: 2.0000005}
   m_Center: {x: 0, y: 0, z: 0}
+--- !u!114 &1905836939
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1905836934}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a0bf8b70d8f384bb9a00102ee41778d2, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  efectoParticulas: {fileID: 1166925293716088, guid: 5337a95e3282c4b968477bb69bbdc48b,
+    type: 2}
+  puntos: {fileID: 559043673}
 --- !u!1 &1997029832
 GameObject:
   m_ObjectHideFlags: 0
@@ -3539,6 +3963,7 @@ GameObject:
   - component: {fileID: 1997029835}
   - component: {fileID: 1997029834}
   - component: {fileID: 1997029836}
+  - component: {fileID: 1997029837}
   m_Layer: 0
   m_Name: Bloque_023
   m_TagString: Untagged
@@ -3614,6 +4039,20 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 2, y: 2.0000005, z: 2.0000005}
   m_Center: {x: 0, y: 0, z: 0}
+--- !u!114 &1997029837
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1997029832}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a0bf8b70d8f384bb9a00102ee41778d2, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  efectoParticulas: {fileID: 1166925293716088, guid: 5337a95e3282c4b968477bb69bbdc48b,
+    type: 2}
+  puntos: {fileID: 559043673}
 --- !u!1 &2050581386
 GameObject:
   m_ObjectHideFlags: 0
@@ -3714,6 +4153,7 @@ GameObject:
   - component: {fileID: 2113830480}
   - component: {fileID: 2113830479}
   - component: {fileID: 2113830481}
+  - component: {fileID: 2113830482}
   m_Layer: 0
   m_Name: Bloque_001
   m_TagString: Untagged
@@ -3789,3 +4229,17 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 2, y: 2.0000005, z: 2.0000005}
   m_Center: {x: 0, y: 0, z: 0}
+--- !u!114 &2113830482
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 2113830477}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a0bf8b70d8f384bb9a00102ee41778d2, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  efectoParticulas: {fileID: 1166925293716088, guid: 5337a95e3282c4b968477bb69bbdc48b,
+    type: 2}
+  puntos: {fileID: 559043673}
